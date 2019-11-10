@@ -1,0 +1,15 @@
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.iws
+out/
+
+# Maven
+log/
+target/
+
+# Mac
+.DS_Store
+
+# ещё
+debug.log
