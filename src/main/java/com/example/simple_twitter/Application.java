@@ -10,10 +10,3 @@ public class Application {
     SpringApplication.run(Application.class, args); // launch an application
   }
 }
-
-/*
-1) Debug 'Application.main()'
-2) localhost:8080/greeting => Hello, World
-3) localhost:8080/greeting?name=Alex => Hello, Alex
-4) localhost:8080/ => this is main
- */
