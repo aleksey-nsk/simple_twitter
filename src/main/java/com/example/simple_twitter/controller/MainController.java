@@ -1,4 +1,4 @@
-package com.example.simple_twitter;
+package com.example.simple_twitter.controller;
 
 import com.example.simple_twitter.domain.Message;
 import com.example.simple_twitter.repositories.MessageRepository;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.util.Map;
 
 @Controller
-public class GreetingController {
+public class MainController {
 
   @Autowired
   private MessageRepository messageRepository;
