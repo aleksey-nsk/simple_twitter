@@ -10,3 +10,4 @@
 - Spring Data Jpa
 - Postgresql
 - Авторизация с помощью Spring Security
+- Шаблонизатор FreeMarker
