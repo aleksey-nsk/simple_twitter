@@ -24,3 +24,6 @@ test_reports/
 
 # Allure Report
 allure-report/
+
+# Директория с картинками
+/uploads/
