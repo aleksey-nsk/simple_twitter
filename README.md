@@ -7,7 +7,7 @@
 ##### Что было использовано:
 - Spring Boot
 - Spring MVC
-- Spring Data Jpa
+- Spring Data JPA
 - Postgresql
-- Авторизация с помощью Spring Security
+- Spring Security
 - Шаблонизатор FreeMarker
