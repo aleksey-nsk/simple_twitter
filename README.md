@@ -12,3 +12,4 @@
 - Spring Security
 - Шаблонизатор FreeMarker
 - Bootstrap
+- Spring Boot Mail Starter
