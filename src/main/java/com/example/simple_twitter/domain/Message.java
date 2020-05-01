@@ -1,6 +1,8 @@
 package com.example.simple_twitter.domain;
 
+import org.hibernate.validator.constraints.Length;
 import javax.persistence.*;
+import javax.validation.constraints.NotBlank;
 
 // @Entity -- this tells Hibernate to make a table out of this class.
 // Hibernate automatically translates the entity into a table.
@@ -11,7 +13,11 @@ public class Message {
   @GeneratedValue(strategy= GenerationType.AUTO)
   private Long id;
 
+  @NotBlank(message = "Please fill the message")
+  @Length(max = 2048, message = "Message too long (more than 2kB)")
   private String text;
+
+  @Length(max = 255, message = "Tag too long (more than 255)")
   private String tag;
 
   @ManyToOne(fetch = FetchType.EAGER)
