@@ -47,6 +47,12 @@
       <artifactId>spring-boot-starter-security</artifactId>
     </dependency>
 
+    <!-- Spring Session with JDBC -->
+    <dependency>
+      <groupId>org.springframework.session</groupId>
+      <artifactId>spring-session-jdbc</artifactId>
+    </dependency>
+
     <!-- Spring Boot Mail Starter -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
