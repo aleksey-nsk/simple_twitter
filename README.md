@@ -14,3 +14,5 @@
 - Bootstrap
 - Spring Boot Mail Starter
 - Flyway
+- Hamcrest
+- Mockito
