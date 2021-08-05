@@ -36,6 +36,7 @@ public class MessageController {
   @Autowired
   private MessageService messageService;
 
+  // Вставляем значение проперти в поле
   @Value("${upload.path}")
   private String uploadPath;
 

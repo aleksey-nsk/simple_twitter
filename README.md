@@ -11,8 +11,8 @@
 - Spring Security
 - Шаблонизатор FreeMarker
 - Bootstrap
-- Spring Boot Mail Starter
-- Flyway
+- Spring Boot Mail Starter (для отправки email с помощью Spring)
+- Flyway (это инструмент для миграции БД)
 - Hamcrest
 - Mockito
 
